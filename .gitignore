@@ -29,6 +29,7 @@ Makefile
 /x64/
 /Debug/
 /Release/
+/x64/
 
 # Исключаем системные файлы
 .DS_Store
