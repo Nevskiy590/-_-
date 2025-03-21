@@ -1,0 +1,42 @@
+# Исключаем объектные файлы и бинарники
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Исключаем директории сборки
+/build/
+/bin/
+/obj/
+
+# Исключаем временные файлы
+*.tmp
+*.swp
+*.swo
+
+# Исключаем файлы, созданные CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Исключаем файлы, созданные IDE (Visual Studio, CLion, Xcode)
+/.vs/
+/.vscode/
+/.idea/
+/x64/
+/Debug/
+/Release/
+
+# Исключаем системные файлы
+.DS_Store
+Thumbs.db
+
+# Исключаем зависимости
+/dependencies/
+/third_party/
+
+# Исключаем логи
+*.log
